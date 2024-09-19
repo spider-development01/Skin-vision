@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header >
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><img src="logo.svg" alt="" srcset="" width="60px"></li>
+                <input type='checkbox' id='check' />
+                <label for='check' class="open-menu">
+                    <div class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </label>         
+                <span class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#framer">Use Model</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <label for='check' class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="https://api.web3forms.com/submit" method="POST" class="form"  id="fade-in-element">
+        <h1 class="orag">Contact Us</h1>
+        <input type="hidden" name="access_key" value="800e8ef8-917e-48aa-92ae-d5cf323e92fd">
+        <input class="input" placeholder="Name" type="text" name="name" required>
+        <input class="input" id="mail" type="text" placeholder="E-Mail I.D." required>
+        <textarea class="textarea" rows="10" cols="30" id="message" placeholder="Enter message" required></textarea> 
+        <center><button class="button1" type="submit">Submit</button></center>
+    </form>
+  <div class="skipper">
+
+    <div class="mail">
+        <p> <b>OR</b> Mail Me:- <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwPxHrnXZHKjMvHpXQVWqgTgvpcHgBFvXCkbMKqzVSqKfFlZsxSPWnBDwttwFFKDxQlbwQh">gurjotsingh0602@gmail.com</a></p>
+    </div>
+  </div>
+    <script>
+        window.addEventListener('load', function() {
+    const element = document.getElementById('fade-in-element');
+    element.style.opacity = 1; // Trigger the fade-in effect
+});
+    </script>
+</body>
+</html>
+
+
+
+
+
