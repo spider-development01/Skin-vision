@@ -10,6 +10,27 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><img src="logo.svg" alt="" srcset="" width="60px"></li>
+                <input type='checkbox' id='check' />
+                <label for='check' class="open-menu">
+                    <div class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </label>         
+                <span class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#framer">Use Model</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <label for='check' class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+            </ul>
+        </nav>
+    </header>
     <div class="flex-container" id="fade-in-element">
         <div class="flex-item-left" >
             <p>
@@ -23,22 +44,28 @@
 <h3 class="web-text">We're pioneering the future of healthcare with cutting-edge telehealth and telemedicine solution</h3>
             </div>
 <div class="buttons">
+<a href="contact.html">
 <button class="button">
-  <span class="button-content">About Us</span>
+  <span class="button-content">Contact Us</span>
 </button>
+</a>
+<a href="#framer">
 <button class="buton">
     <span class="button-content">Use Model</span>
   </button>
+</a>
 </div>
         </div>
         <div class="flex-item-right">
             <img src="Untitled (73).svg" alt="" srcset="" width="95%" class="banner">
         </div>
     </div>
+    <section id="framer"></section>
     <div class="iframe">
         <div class="box"></div>
         <iframe scrolling = "no" src="https://liuhaotian-llava-1-6.hf.space" frameborder="0" height="1000px" width="100%"></iframe>
     </div>
+
     <script>
         window.addEventListener('load', function() {
     const element = document.getElementById('fade-in-element');
@@ -47,6 +74,12 @@
     </script>
 </body>
 </html>
+
+
+
+
+
+
 
 
 
