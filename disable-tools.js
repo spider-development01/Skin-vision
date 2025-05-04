@@ -24,8 +24,6 @@ document.addEventListener("keydown", function (e) {
         (e.ctrlKey && e.shiftKey && e.key === "P") ||// Ctrl+Shift+P (command menu)
         (e.key === "F1")                             // F1 (help/settings)
     ) {
-        e.preventDefault();
-        alert("This shortcut is disabled.");
     }
 
     // Block Mac equivalents
